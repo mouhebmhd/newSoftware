@@ -56,5 +56,9 @@ class Room {
     public void enterRoom() {
         lightSwitch.turnOn();
     }
+    
+    public void quitRoom() {
+        lightSwitch.turnOn();
+    }
 }
 
