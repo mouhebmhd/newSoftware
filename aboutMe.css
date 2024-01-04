@@ -1,0 +1,18 @@
+:root
+{
+--blackColor:rgba(0,0,0,0.3);
+--grayColor:rgb(205,205,205);
+--greenColor:#18D36E;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background-image: url("./bg.jpg");
+background-size: cover;
+}

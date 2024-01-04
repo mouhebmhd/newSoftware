@@ -1,0 +1,73 @@
+\documentclass{article}      % Document class
+\usepackage{package_name}    % Load packages
+
+\begin{document}              % Begin document
+    \textbf{Bold}            % Bold text
+    \textit{Italic}          % Italic text
+    \underline{Underline}    % Underline text
+    
+    \section{Section Title}              % Section
+    \subsection{Subsection Title}        % Subsection
+    
+    \begin{itemize}           % Unordered list
+        \item Item 1
+        \item Item 2
+    \end{itemize}
+    
+    \begin{enumerate}         % Ordered list
+        \item Item 1
+        \item Item 2
+    \end{enumerate}
+   
+    
+    \begin{tabular}{|c|c|}    % Table with two columns
+        \hline
+        Item 1 & Item 2 \\
+        \hline
+        Value 1 & Value 2 \\
+        \hline
+    \end{tabular}
+    
+    \begin{figure}[h]         % Insert image
+        \centering
+        \includegraphics[width=0.5\textwidth]{image_name.png}
+        \caption{Image Caption}
+        \label{fig:image}
+    \end{figure}
+    
+    \label{sec:section}       % Label a section
+    \ref{sec:section}         % Reference to a section
+    
+    \cite{reference_key}      % Citations
+    
+    % This is a comment
+\end{document}                % End document
+
+
+
+\usepackage{listings}
+
+\lstdefinestyle{JavaStyle}{
+    language=Java,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=5pt,
+    tabsize=2,
+    xleftmargin=15pt,
+    framexleftmargin=15pt,
+}
+\begin{lstlisting}[style=JavaStyle, caption={Your Java code}, label=java_code]
+// Your Java code here
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+\end{lstlisting}
