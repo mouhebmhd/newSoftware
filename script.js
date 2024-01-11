@@ -13,3 +13,7 @@ function server()
 {
     
 }
+function f1()
+{
+    
+}
