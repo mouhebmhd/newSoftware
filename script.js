@@ -5,3 +5,7 @@ function afficher()
 {
     
 }
+function logout()
+{
+    
+}
