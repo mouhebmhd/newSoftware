@@ -66,5 +66,9 @@ class Recatangle implements Shape {
         public void draw() {
             System.out.println("Drawing another shape");
         }
-        
+        class Recatangle implements Shape {
+            @Override
+            public void draw() {
+                System.out.println("Drawing another shape");
+            }
 }
