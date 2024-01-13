@@ -59,6 +59,6 @@ class Triangle implements Shape {
 class Recatangle implements Shape {
     @Override
     public void draw() {
-        System.out.println("Drawing rectangle");
+        System.out.println("Drawing another shape");
     }
 }
