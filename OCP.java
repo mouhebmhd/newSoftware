@@ -53,7 +53,7 @@ class Square implements Shape {
 class Triangle implements Shape {
     @Override
     public void draw() {
-        System.out.println("Drawing triangle");
+        System.out.println("Drawing another shape");
     }
 }
 class Recatangle implements Shape {
