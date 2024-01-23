@@ -5,6 +5,7 @@ var age1=24;
 var prenom2="Imen";
 var nom2="Sfaxi";
 var age2=26;
+var age2=26;
 
 var prenom3="Mouhamed";
 var nom3="Trabelsi";
