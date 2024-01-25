@@ -1,1 +1,1 @@
-somme(17,23)
+p2.presentezVous()
